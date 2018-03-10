@@ -1,0 +1,105 @@
+{
+    "name": "xcode-keybindings",
+    "displayName": "Xcode Keymap",
+    "description": "Popular Xcode keybindings for VS Code.",
+    "version": "1.0.0",
+    "publisher": "stevemoser",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keymap"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemoser/vscode-xcode-keybindings.git"
+    },
+    "bugs": {
+        "url": "https://github.com/stevemoser/vscode-xcode-keybindings/issues"
+    },
+    "preview": true,
+    "icon": "xcode-keyboard.png",
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "shift+cmd+]",
+                "command": "workbench.action.nextEditor"
+            },
+            {
+                "key": "shift+cmd+[",
+                "command": "workbench.action.previousEditor"
+            },
+            {
+                "key": "cmd+shift+y",
+                "command": "workbench.action.togglePanel"
+            },
+            {
+                "key": "cmd+shift+o",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "key": "ctrl+cmd+right",
+                "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "ctrl+cmd+left",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "cmd+1",
+                "command": "workbench.view.explorer"
+            },
+            {
+                "key": "cmd+2",
+                "command": "workbench.view.search"
+            },
+            {
+                "key": "cmd+3",
+                "command": "workbench.view.scm"
+            },
+            {
+                "key": "cmd+4",
+                "command": "workbench.view.debug"
+            },
+            {
+                "key": "cmd+5",
+                "command": "workbench.view.extensions"
+            },
+            {
+                "key": "cmd+r",
+                "command": "workbench.action.debug.start",
+                "when": "!inDebugMode"
+            },
+            {
+                "key": "cmd+r",
+                "command": "workbench.action.debug.restart",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "cmd+.",
+                "command": "workbench.action.debug.stop",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "cmd+b",
+                "command": "workbench.action.tasks.build"
+            },
+            {
+                "key": "cmd+0",
+                "command": "workbench.action.toggleSidebarVisibility"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^1.0.0"
+    },
+    "dependencies": {
+        "jsonfile": "^2.2.3"
+    }
+}
