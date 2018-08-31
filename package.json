@@ -92,32 +92,32 @@
                 "command": "workbench.action.toggleSidebarVisibility"
             },
             {
-                "key": "alt+right",
+                "key": "ctrl+right",
                 "command": "cursorWordPartRight",
                 "when": "textInputFocus"
             },
             { 
-                "key": "shift+alt+right", 
+                "key": "shift+ctrl+right", 
                 "command": "cursorWordPartRightSelect",
                 "when": "textInputFocus"
             },
             { 
-                "key": "alt+left", 
+                "key": "ctrl+left", 
                 "command": "cursorWordPartStartLeft",
                 "when": "textInputFocus"
             },
             { 
-                "key": "shift+alt+left", 
+                "key": "shift+ctrl+left", 
                 "command": "cursorWordPartStartLeftSelect",
                 "when": "textInputFocus"
             },
             {
-                "key": "alt+backspace",
+                "key": "ctrl+backspace",
                 "command": "deleteWordPartLeft",
                 "when": "textInputFocus && !editorReadonly" 
             },
             { 
-                "key": "shift+alt+backspace", 
+                "key": "shift+ctrl+backspace", 
                 "command": "deleteWordPartRight",
                 "when": "textInputFocus && !editorReadonly" 
             }
