@@ -90,6 +90,36 @@
             {
                 "key": "cmd+0",
                 "command": "workbench.action.toggleSidebarVisibility"
+            },
+            {
+                "key": "ctrl+right",
+                "command": "cursorWordPartRight",
+                "when": "textInputFocus"
+            },
+            { 
+                "key": "shift+ctrl+right", 
+                "command": "cursorWordPartRightSelect",
+                "when": "textInputFocus"
+            },
+            { 
+                "key": "ctrl+left", 
+                "command": "cursorWordPartStartLeft",
+                "when": "textInputFocus"
+            },
+            { 
+                "key": "shift+ctrl+left", 
+                "command": "cursorWordPartStartLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+backspace",
+                "command": "deleteWordPartLeft",
+                "when": "textInputFocus && !editorReadonly" 
+            },
+            { 
+                "key": "shift+ctrl+backspace", 
+                "command": "deleteWordPartRight",
+                "when": "textInputFocus && !editorReadonly" 
             }
         ]
     },
