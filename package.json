@@ -2,7 +2,7 @@
     "name": "xcode-keybindings",
     "displayName": "Xcode Keymap",
     "description": "Popular Xcode keybindings for VS Code.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "stevemoser",
     "engines": {
         "vscode": "^1.6.0"
