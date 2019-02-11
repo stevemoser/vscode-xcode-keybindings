@@ -92,6 +92,36 @@
                 "command": "workbench.action.toggleSidebarVisibility"
             },
             {
+                "key": "ctrl+right",
+                "command": "cursorWordPartRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+ctrl+right",
+                "command": "cursorWordPartRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+left",
+                "command": "cursorWordPartStartLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+ctrl+left",
+                "command": "cursorWordPartStartLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+backspace",
+                "command": "deleteWordPartLeft",
+                "when": "textInputFocus && !editorReadonly"
+            },
+            {
+                "key": "shift+ctrl+backspace",
+                "command": "deleteWordPartRight",
+                "when": "textInputFocus && !editorReadonly"
+            },
+            {
                 "key": "alt+cmd+left",
                 "command": "editor.fold"
             },
@@ -116,6 +146,6 @@
         "vscode": "^1.0.0"
     },
     "dependencies": {
-        "jsonfile": "^2.2.3"
+        "jsonfile": "^5.0.0"
     }
 }
