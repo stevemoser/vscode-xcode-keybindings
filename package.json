@@ -90,6 +90,22 @@
             {
                 "key": "cmd+0",
                 "command": "workbench.action.toggleSidebarVisibility"
+            },
+            {
+                "key": "alt+cmd+left",
+                "command": "editor.fold"
+            },
+            {
+                "key": "alt+cmd+right",
+                "command": "editor.unfold"
+            },
+            {
+                "key": "alt+cmd+[",
+                "command": "editor.action.moveLinesUpAction"
+            },
+            {
+                "key": "alt+cmd+]",
+                "command": "editor.action.moveLinesDownAction"
             }
         ]
     },
