@@ -120,6 +120,11 @@
                 "key": "shift+ctrl+backspace",
                 "command": "deleteWordPartRight",
                 "when": "textInputFocus && !editorReadonly"
+            },
+            { 
+                "key": "ctrl+cmd+e",
+                "command": "editor.action.changeAll",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
