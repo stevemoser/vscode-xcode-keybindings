@@ -88,6 +88,10 @@
                 "command": "workbench.action.tasks.build"
             },
             {
+                "key": "cmd+u",
+                "command": "workbench.action.tasks.test"
+            },
+            {
                 "key": "cmd+0",
                 "command": "workbench.action.toggleSidebarVisibility"
             },
