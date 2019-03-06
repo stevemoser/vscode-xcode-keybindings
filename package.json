@@ -2,8 +2,9 @@
     "name": "xcode-keybindings",
     "displayName": "Xcode Keymap",
     "description": "Popular Xcode keybindings for VS Code.",
-    "version": "1.0.0",
+    "version": "1.4.0",
     "publisher": "stevemoser",
+    "homepage": "https://github.com/stevemoser/vscode-xcode-keybindings/#readme",
     "engines": {
         "vscode": "^1.6.0"
     },
@@ -11,7 +12,13 @@
         "Keymaps"
     ],
     "keywords": [
-        "keymap"
+        "Keymap",
+        "Keybinding",
+        "Swift",
+        "ObjC",
+        "Apple",
+        "Mac",
+        "Xcode"
     ],
     "repository": {
         "type": "git",
@@ -150,7 +157,8 @@
                 "key": "alt+down",
                 "command": "",
                 "when": "editorTextFocus && !editorReadonly"
-            { 
+            },
+            {
                 "key": "ctrl+cmd+e",
                 "command": "editor.action.changeAll",
                 "when": "editorTextFocus && !editorReadonly"
