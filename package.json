@@ -125,6 +125,31 @@
                 "command": "deleteWordPartRight",
                 "when": "textInputFocus && !editorReadonly"
             },
+            {
+                "key": "alt+cmd+left",
+                "command": "editor.fold"
+            },
+            {
+                "key": "alt+cmd+right",
+                "command": "editor.unfold"
+            },
+            {
+                "key": "alt+cmd+[",
+                "command": "editor.action.moveLinesUpAction"
+            },
+            {
+                "key": "alt+cmd+]",
+                "command": "editor.action.moveLinesDownAction"
+            },
+            {
+                "key": "alt+up",
+                "command": "",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+down",
+                "command": "",
+                "when": "editorTextFocus && !editorReadonly"
             { 
                 "key": "ctrl+cmd+e",
                 "command": "editor.action.changeAll",
