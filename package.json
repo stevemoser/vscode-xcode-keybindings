@@ -88,6 +88,10 @@
                 "command": "workbench.action.tasks.build"
             },
             {
+                "key": "cmd+u",
+                "command": "workbench.action.tasks.test"
+            },
+            {
                 "key": "cmd+0",
                 "command": "workbench.action.toggleSidebarVisibility"
             },
@@ -125,6 +129,21 @@
                 "key": "ctrl+cmd+e",
                 "command": "editor.action.changeAll",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "enter",
+                "command": "acceptSelectedSuggestion",
+                "when": "editorTextFocus && suggestWidgetVisible"
+            },
+            {
+                "key": "ctrl+shift+up",
+                "command": "editor.action.insertCursorAbove",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+shift+down",
+                "command": "editor.action.insertCursorBelow",
+                "when": "editorTextFocus"
             }
         ]
     },
