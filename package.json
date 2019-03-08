@@ -150,7 +150,7 @@
             },
             {
                 "key": "alt+up",
-                "command": "cursorEnd",
+                "command": "cursorHome",
                 "when": "textInputFocus"
             },
             {
