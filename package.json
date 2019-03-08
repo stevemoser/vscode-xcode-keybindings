@@ -150,13 +150,13 @@
             },
             {
                 "key": "alt+up",
-                "command": "",
-                "when": "editorTextFocus && !editorReadonly"
+                "command": "cursorEnd",
+                "when": "textInputFocus"
             },
             {
                 "key": "alt+down",
-                "command": "",
-                "when": "editorTextFocus && !editorReadonly"
+                "command": "cursorEnd",
+                "when": "textInputFocus"
             },
             {
                 "key": "ctrl+cmd+e",
