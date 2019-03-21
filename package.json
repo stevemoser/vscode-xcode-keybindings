@@ -120,6 +120,11 @@
                 "key": "shift+ctrl+backspace",
                 "command": "deleteWordPartRight",
                 "when": "textInputFocus && !editorReadonly"
+            },
+            { 
+                "key": "cmd+l",
+                "command": "workbench.action.gotoLine",
+                "when": "textInputFocus"
             }
         ]
     },
