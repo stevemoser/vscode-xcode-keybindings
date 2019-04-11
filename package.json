@@ -48,11 +48,11 @@
                 "command": "workbench.action.quickOpen"
             },
             {
-                "key": "ctrl+cmd+right",
+                "key": "ctrl+cmd+left",
                 "command": "workbench.action.navigateBack"
             },
             {
-                "key": "ctrl+cmd+left",
+                "key": "ctrl+cmd+right",
                 "command": "workbench.action.navigateForward"
             },
             {
