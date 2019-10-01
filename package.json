@@ -31,6 +31,14 @@
     "icon": "xcode-keyboard.png",
     "contributes": {
         "keybindings": [
+			{
+				"key": "cmd+shift+j",
+				"command": "workbench.files.action.showActiveFileInExplorer"
+			},            
+			{
+				"key": "cmd+ctrl+up",
+				"command": "C_Cpp.SwitchHeaderSource"
+			},            
             {
                 "key": "shift+cmd+]",
                 "command": "workbench.action.nextEditor"
