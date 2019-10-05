@@ -32,6 +32,10 @@
     "contributes": {
         "keybindings": [
 			{
+				"key": "cmd+e",
+				"command": "editor.action.addSelectionToNextFindMatch"
+			},         
+			{
 				"key": "cmd+shift+j",
 				"command": "workbench.files.action.showActiveFileInExplorer"
 			},            
