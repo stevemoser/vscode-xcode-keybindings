@@ -194,6 +194,11 @@
                 "key": "cmd+l",
                 "command": "workbench.action.gotoLine",
                 "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+i",
+                "command": "workbench.action.formatCode",
+                "when": "textInputFocus"
             }
         ]
     },
