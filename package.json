@@ -194,6 +194,11 @@
                 "key": "cmd+l",
                 "command": "workbench.action.gotoLine",
                 "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+6",
+                "command": "breadcrumbs.focusAndSelect",
+                "when": "breadcrumbsPossible"
             }
         ]
     },
