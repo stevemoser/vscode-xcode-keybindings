@@ -194,7 +194,12 @@
                 "key": "cmd+l",
                 "command": "workbench.action.gotoLine",
                 "when": "textInputFocus"
-            }
+            },
+            {
+              "key": "ctrl+cmd+j",
+              "command": "editor.action.revealDefinition",
+              "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+            }           
         ]
     },
     "scripts": {
