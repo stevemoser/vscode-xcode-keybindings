@@ -32,7 +32,7 @@
     "contributes": {
         "keybindings": [
 			{
-				"key": "cmd+e",
+				"key": "alt+cmd+e",
 				"command": "editor.action.addSelectionToNextFindMatch"
 			},         
 			{
