@@ -68,6 +68,16 @@
                 "command": "workbench.action.navigateForward"
             },
             {
+                "key": "shift+alt+up",
+                "command": "cursorLineStartSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+down",
+                "command": "cursorLineEndSelect",
+                "when": "textInputFocus"
+            },
+            {
                 "key": "cmd+1",
                 "command": "workbench.view.explorer"
             },
