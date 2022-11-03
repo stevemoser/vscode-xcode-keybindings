@@ -103,6 +103,16 @@
                 "when": "inDebugMode"
             },
             {
+                "key": "ctrl+cmd+y",
+                "command": "workbench.action.debug.continue",
+                "when": "inDebugMode && debugState == stopped"
+            },
+            {
+                "key": "ctrl+cmd+y",
+                "command": "workbench.action.debug.pause",
+                "when": "inDebugMode && debugState == running"
+            },
+            {
                 "key": "cmd+b",
                 "command": "workbench.action.tasks.build"
             },
