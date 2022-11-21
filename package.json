@@ -176,6 +176,11 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
+                "key": "ctrl+i",
+                "command": "editor.action.formatSelection",
+                "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+            },
+            {
                 "key": "enter",
                 "command": "acceptSelectedSuggestion",
                 "when": "editorTextFocus && suggestWidgetVisible"
