@@ -31,18 +31,18 @@
     "icon": "xcode-keyboard.png",
     "contributes": {
         "keybindings": [
-			{
-				"key": "cmd+e",
-				"command": "editor.action.addSelectionToNextFindMatch"
-			},         
-			{
-				"key": "cmd+shift+j",
-				"command": "workbench.files.action.showActiveFileInExplorer"
-			},            
-			{
-				"key": "cmd+ctrl+up",
-				"command": "C_Cpp.SwitchHeaderSource"
-			},            
+            {
+                "key": "cmd+e",
+                "command": "editor.action.addSelectionToNextFindMatch"
+            },
+            {
+                "key": "cmd+shift+j",
+                "command": "workbench.files.action.showActiveFileInExplorer"
+            },
+            {
+                "key": "cmd+ctrl+up",
+                "command": "C_Cpp.SwitchHeaderSource"
+            },
             {
                 "key": "shift+cmd+]",
                 "command": "workbench.action.nextEditor"
@@ -204,6 +204,10 @@
                 "key": "cmd+d",
                 "command": "editor.action.duplicateSelection",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+6",
+                "command": "workbench.action.gotoSymbol"
             }
         ]
     },
