@@ -204,6 +204,11 @@
                 "key": "cmd+d",
                 "command": "editor.action.duplicateSelection",
                 "when": "editorTextFocus"
+            },
+			{
+                "key": "ctrl+i",
+                "command": "editor.action.reindentselectedlines",
+                "when": "editorTextFocus"
             }
         ]
     },
