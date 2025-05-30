@@ -31,18 +31,18 @@
     "icon": "xcode-keyboard.png",
     "contributes": {
         "keybindings": [
-			{
-				"key": "cmd+e",
-				"command": "editor.action.addSelectionToNextFindMatch"
-			},         
-			{
-				"key": "cmd+shift+j",
-				"command": "workbench.files.action.showActiveFileInExplorer"
-			},            
-			{
-				"key": "cmd+ctrl+up",
-				"command": "C_Cpp.SwitchHeaderSource"
-			},            
+            {
+                "key": "cmd+e",
+                "command": "editor.action.addSelectionToNextFindMatch"
+            },
+            {
+                "key": "cmd+shift+j",
+                "command": "workbench.files.action.showActiveFileInExplorer"
+            },
+            {
+                "key": "cmd+ctrl+up",
+                "command": "C_Cpp.SwitchHeaderSource"
+            },
             {
                 "key": "shift+cmd+]",
                 "command": "workbench.action.nextEditor"
@@ -66,6 +66,16 @@
             {
                 "key": "ctrl+cmd+right",
                 "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "shift+alt+up",
+                "command": "cursorLineStartSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "shift+alt+down",
+                "command": "cursorLineEndSelect",
+                "when": "textInputFocus"
             },
             {
                 "key": "cmd+1",
@@ -101,6 +111,16 @@
                 "key": "cmd+.",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+cmd+y",
+                "command": "workbench.action.debug.continue",
+                "when": "inDebugMode && debugState == stopped"
+            },
+            {
+                "key": "ctrl+cmd+y",
+                "command": "workbench.action.debug.pause",
+                "when": "inDebugMode && debugState == running"
             },
             {
                 "key": "cmd+b",
@@ -176,6 +196,11 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
+                "key": "ctrl+i",
+                "command": "editor.action.formatSelection",
+                "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+            },
+            {
                 "key": "enter",
                 "command": "acceptSelectedSuggestion",
                 "when": "editorTextFocus && suggestWidgetVisible"
@@ -199,6 +224,10 @@
                 "key": "cmd+d",
                 "command": "editor.action.duplicateSelection",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+6",
+                "command": "workbench.action.gotoSymbol"
             }
         ]
     },
@@ -206,7 +235,7 @@
         "postinstall": "node ./node_modules/vscode/bin/install"
     },
     "devDependencies": {
-        "vscode": "^1.0.0"
+        "vscode": "^1.1.37"
     },
     "dependencies": {
         "jsonfile": "^5.0.0"
