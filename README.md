@@ -23,10 +23,10 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 ```json
 {
     "mac": "<keyboard shortcut for mac>",
-    "linux": "<keyboard shortcut for linux",
-    "win": "<keyboard shortcut for windows",
+    "linux": "<keyboard shortcut for linux>",
+    "win": "<keyboard shortcut for windows>",
     "key": "<default keyboard shortcut>",
-    "command": "<name of the command in VS Code"
+    "command": "<name of the command in VS Code>"
 }
 ```
 
@@ -34,4 +34,4 @@ You can read more about how to contribute keybindings in extensions in the [offi
 
 This extension was based off of [Microsoft's VS keybindings extension](https://github.com/Microsoft/vscode-vs-keybindings)
 
-Also it was inspired from [brennanMKE's gist](https://gist.github.com/brennanMKE/8b0d9e5cb72cbd6380b5).
+Also it was inspired by [brennanMKE's gist](https://gist.github.com/brennanMKE/8b0d9e5cb72cbd6380b5).
