@@ -228,6 +228,11 @@
             {
                 "key": "ctrl+6",
                 "command": "workbench.action.gotoSymbol"
+            },
+            {
+                "key": "ctrl+cmd+j",
+                "command": "editor.action.revealDefinition",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
             }
         ]
     },
